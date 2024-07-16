@@ -1,0 +1,46 @@
+body {
+	background-color: rgb(157, 174, 175);
+	height: 98vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+}
+.names {
+	display: flex;
+	flex-direction: column;
+}
+.names > input {
+	width: 100px;
+}
+.gameboard {
+	background-color: rgb(48, 48, 48);
+	width: 304px;
+	display: grid;
+	gap: 2px;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px;
+}
+.box {
+	background-color: rgb(126, 106, 175);
+	color: rgb(32, 32, 32);
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+	font-size: 64px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box:hover {
+	background-color: rgb(109, 54, 161);
+}
+#reset,
+#start {
+	width: 100px;
+	height: 25px;
+}
